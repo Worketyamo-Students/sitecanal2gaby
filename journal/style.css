@@ -40,8 +40,8 @@ section{
 }
 span{
     align-items: flex-start;
-    font-family: 'IBM Plex Sans Hebrew', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: var(--font1);
+    font-family: var(--font2);
 }
 .intro{
     flex: 1;
@@ -57,20 +57,20 @@ font-family: 'Poppins', sans-serif;
     margin-left: 30px;
 }
 .Ako{
-    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-family: var(--font1);
 }
 .texte{
     margin-left: 10px;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+font-family: var(--font2);
+font-family: var(--font2);
 }
 .rien{
     font-weight: lighter;
     font-style: italic;
     font-size: 14px;
-    color: #79AC78;
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    color: var(--secondary);
+    font-family: var(--font2);
+    font-family: var(--font2);
 }
 span{
     font-weight: bolder;
@@ -79,7 +79,7 @@ p{
     font-weight: lighter;
 }
 .jours{
-    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-family: var(--font1);
     font-weight: bolder;
 }
 .femme{
@@ -99,20 +99,18 @@ h2{
     flex: 1;
 }
 .mouna2{
-    flex: 1;
-    /* background-color: red; */
-    
+    flex: 1; 
 }
 h1{
     font-size: 35px;
     font-weight: bolder;
-    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-family: var(--font1);
     
 }
 .bla{
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    color: #79AC78;
+    font-family: var(--font2);
+    color:var(--primary);
 }
 .horaire{
     
@@ -122,8 +120,8 @@ h1{
 footer{
     display: block;
     width: 1300px;
-    height: 200px;
-    background-color: #618264;
+    height: 230px;
+    background-color: var(--secondary);
 }
 .foot{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -149,10 +147,10 @@ footer{
 }
 .tape h2{
     color: white;
-    border-left: 7px solid green;
+    border-left: 7px solid var(--secondary);
     padding: 10px;
-    font-family: 'IBM Plex Sans Hebrew', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: var(--font1);
+    font-family: var(--font2);
 }
 .logo,img{
     cursor: pointer;
@@ -165,6 +163,33 @@ a:hover{
     color: green;
     text-decoration: underline;
 }
-.mars:hover{
-    transform: scale(1,1.09);
+.banniere{
+    display: flex;
+    margin: 8px;
+}
+.bann{
+    flex: 10;
+    background-image: url(./images/banniere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+}
+.tex{
+    flex: 1;
+    height:50vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+hr{
+    height: 100px;
+    width: 10px;
+    background:var(--secondary);
+}
+#space{
+    font-size: 20px;
+    color:var(--secondary);
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
 }
