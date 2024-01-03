@@ -3,6 +3,14 @@
     margin: 0;
     border: 0;
 }
+:root{
+    --primary:#618264;
+    --secondary:#79AC78;
+    --angle1:20px;
+    --angle2:10px;
+    --font1:'IBM Plex Sans Hebrew', sans-serif;
+    --font2:'Open Sans', sans-serif;
+}
 body{
     width: 100vw;
     height: 100vh;
